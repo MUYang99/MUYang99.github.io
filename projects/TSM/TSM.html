@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
@@ -15,7 +15,7 @@
 	
 	
 <h2>Study area </h2>
-<p>The Federal Republic of Germany has a total of 11.4 million hectares of forest and a substantial forest stock volume of $3.7 &times; 10<sup>9</sup>$ cubic meters.  Fig.1 shows the specific
+<p>The Federal Republic of Germany has a total of 11.4 million hectares of forest and a substantial forest stock volume of 3.7 &times; 10<sup>9</sup> cubic meters.  Fig.1 shows the specific
 location.</p>
 <div align="center"><img src="/projects/TSM/figs/Fig1studyevaluationarea1.png" width="100%"></div>	
 	
@@ -49,4 +49,74 @@ This dataset includes 16 states of Germany.</p>
 
 </body></html>	
 	
-</body></html>
+</body></html> -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>UTB Dataset</title>
+    <link type="text/css" href="/projects/head/system.css" rel="stylesheet">
+    <link type="text/css" href="/projects/head/custom.css" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        h1,
+        h2,
+        h3,
+        p,
+        div {
+            margin: 10px;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 0 auto;
+        }
+
+        @media screen and (max-width: 600px) {
+            /* 在小屏幕下的样式调整 */
+        }
+    </style>
+</head>
+
+<body>
+    <div align="center">
+        <h1>The Tree Species Distribution dataset of Germany</h1>
+    </div>
+
+    <div align="center">Yang Mu, Jianhua Guo, Muhammad Shahzad, Xiao Xiang Zhu</div>
+
+    <h2>Study area</h2>
+    <p>The Federal Republic of Germany has a total of 11.4 million hectares of forest and a substantial forest stock volume of 3.7 &times; 10<sup>9</sup> cubic meters. Fig.1 shows the specific location.</p>
+    <div align="center"><img src="/projects/TSM/figs/Fig1studyevaluationarea1.png" alt="Study Area"></div>
+
+    <h3>Workflow of this study</h3>
+    <p>There are five main stages: satellite data acquisition, label generation, training data preparation, model training and mapping.</p>
+    <div align="center"><img src="/projects/TSM/figs/Fig2workflow.png" alt="Workflow"></div>
+
+    <h3>Training Networks and Pytorch Codes</h3>
+    <p>The proposed ForestFormer integrates a dual-branch network architecture, complemented by attention mechanisms from the Transformer model in both spectral and spatial domains.</p>
+    <div align="center"><img src="/projects/TSM/figs/Fig3deeplearningframework1.png" alt="Deep Learning Framework"></div>
+
+    <p>The PyTorch code of this work is available from <a href="https://github.com/nkszjx/UTB_master/"><b>TSM_master</b></a>.</p>
+
+    <h3>Results</h3>
+    <p>Tree Species Distribution dataset of Germany</p>
+    <div align="center"><img src="/projects/TSM/figs/Fig5treemap.png" alt="Results"></div>
+
+    <h3>Tree Species Distribution dataset of Germany dataset download</h3>
+    <p>The created urban tree species distribution products covering the whole Germany are available to the community (<a href="https://drive.google.com/file/d/1lgBdUc2Yjme4cqBrs0fTiAVRN8d9Q_Pw/view?usp=drive_link/"><b>TSM dataset</b></a>).
+        This dataset includes 16 states of Germany.</p>
+
+    <h2>Contact</h2>
+    <p>E-mail: yang.mu@tum.de</p>
+</body>
+
+</html>
