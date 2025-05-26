@@ -2,11 +2,11 @@
 layout: about
 title: about
 permalink: /
-subtitle: PhD student in <a href='https://www.asg.ed.tum.de/sipeo/home/'>Data Science and Earth Observation</a> at Technical University of Munich.
+subtitle:
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: prof_pic_1.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
 
@@ -24,7 +24,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am a Ph.D. candidate at Technical University of Munich, advised by Prof. <a href='https://www.asg.ed.tum.de/sipeo/team/zhu/'>Xiao Xiang Zhu</a> and <a href='https://www.asg.ed.tum.de/sipeo/team/prof-dr-ing-muhammad-shahzad/'>Muhammad Shahzad</a>. I obtained M.Sc. in Geomatics from KTH Royal Institute of Technology and exchanged in ETH Zurich in 2022. Prior to that, I earned a B.Eng. in Remote Sensing from Wuhan University in 2020.
+I am a PhD student in <a href='https://www.asg.ed.tum.de/sipeo/home/'>Data Science and Earth Observation</a> at Technical University of Munich, advised by Prof. <a href='https://www.asg.ed.tum.de/sipeo/team/zhu/'>Xiao Xiang Zhu</a> and <a href='https://www.asg.ed.tum.de/sipeo/team/prof-dr-ing-muhammad-shahzad/'>Muhammad Shahzad</a>. I obtained M.Sc. in Geomatics from KTH Royal Institute of Technology and exchanged in ETH Zurich in 2022. Prior to that, I earned a B.Eng. in Remote Sensing from Wuhan University in 2020.
 
 My research involves developing AI-driven **multimodal learning methods** for Earth observation data (multispectral, hyperspectral, SAR) and advances **geospatial reasoning**. Passionately committed to the paradigm of *"vision to understanding, understanding to action,"* I aim to bridge perception and real-world impact through intelligent geospatial analytics.
 
