@@ -30,4 +30,4 @@ My research centers on **multimodal learning** and **spatial-temporal analysis**
 
 ---
 
-*Feel free to reach out for research collaborations, academic discussions, or if you're interested in the intersection of AI and Earth observation!* :sparkles: :smile:
+*Feel free to reach out for research collaborations, academic discussions, or if you're interested in the intersection of AI and Earth observation!*
