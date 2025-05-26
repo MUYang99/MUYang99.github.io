@@ -6,8 +6,8 @@ title: blank # the website title (if blank, full name will be used instead)
 first_name: Yang
 middle_name: 
 last_name: Mu
-contact_note: >
-  Feel free to reach out via email for research collaborations or academic discussions.
+# contact_note: >
+#   Feel free to reach out via email for research collaborations or academic discussions.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Ph.D. candidate specializing in Remote Sensing Foundation Models, Computer Vision, and Deep Learning for geospatial applications. 
   Passionate about bridging perception and real-world impact through intelligent geospatial analytics.
