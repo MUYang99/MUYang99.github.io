@@ -14,7 +14,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 
 announcements:
-  enabled: true # includes a list of news items
+  enabled: false # includes a list of news items
   scrollable: true # adds a vertical scroll bar if there are more than 3 news items
   limit: 5 # leave blank to include all the news in the `_news` folder
 
@@ -30,4 +30,4 @@ My research centers on **multimodal learning** and **spatial-temporal analysis**
 
 ---
 
-*Feel free to reach out for research collaborations, academic discussions, or if you're interested in the intersection of AI and Earth observation!*
+*Feel free to drop me an email for research collaborations, academic discussions, or if you're interested in the intersection of AI and Earth observation!*
