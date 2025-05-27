@@ -1,14 +1,10 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - MUYang99
 
-repo_description_lines_max: 2
+repo_description_lines_max: 3
 
 github_repos:
-  - alshedivat/al-folio
-  - jekyll/jekyll
-  - twbs/bootstrap
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - mathjax/MathJax
-  - jpswalsh/academicons
+  - MUYang99/GlobalGeoTree
+  - MUYang99/Pytorch_Tree-Species-Mapping
+  - MUYang99/MPTSNet
+  - MUYang99/Pytorch_Remote-Sensing-Image-Classification

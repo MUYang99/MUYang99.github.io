@@ -24,9 +24,9 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am a PhD student in <a href='https://www.asg.ed.tum.de/sipeo/home/'>Data Science and Earth Observation</a> at Technical University of Munich, advised by Prof. <a href='https://www.asg.ed.tum.de/sipeo/team/zhu/'>Xiao Xiang Zhu</a> and <a href='https://www.asg.ed.tum.de/sipeo/team/prof-dr-ing-muhammad-shahzad/'>Muhammad Shahzad</a>. I obtained M.Sc. in Geomatics from KTH Royal Institute of Technology and exchanged in ETH Zurich in 2022. Prior to that, I earned a B.Eng. in Remote Sensing from Wuhan University in 2020.
+I am a PhD student in <a href='https://www.asg.ed.tum.de/sipeo/home/'>Data Science and Earth Observation</a> at Technical University of Munich, advised by Prof. <a href='https://www.asg.ed.tum.de/sipeo/team/zhu/'>Xiao Xiang Zhu</a> and <a href='https://www.asg.ed.tum.de/sipeo/team/prof-dr-ing-muhammad-shahzad/'>Muhammad Shahzad</a>. I obtained M.Sc. in Geomatics from <a href='https://www.kth.se/en'>KTH Royal Institute of Technology</a> and exchanged in <a href='https://prs.igp.ethz.ch/'>ETH Zurich</a> in 2022. Prior to that, I earned a B.Eng. in Remote Sensing from <a href='https://en.whu.edu.cn/'>Wuhan University</a> in 2020.
 
-My research centers on **multimodal learning** and **spatial-temporal analysis** for Earth observation, advancing **geospatial reasoning** to deliver actionable insights, especially for **global forest and biodiversity monitoring**. Passionately committed to the paradigm of *"vision to understanding, understanding to action,"* I aim to bridge perception and real-world impact through intelligent geospatial analytics.
+My research centers on **multimodal learning** and **spatial-temporal analysis** for Earth observation, advancing **geospatial reasoning** to deliver actionable insights, especially for **global forest and biodiversity monitoring**.
 
 ---
 
