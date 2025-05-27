@@ -2,96 +2,79 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
+      value: Yang Mu
+    - name: Email
+      value: yang.mu@tum.de
+    - name: Phone
+      value: (+49) 176-8598-3124
+    - name: Location
+      value: Munich, Germany
     - name: Languages
-      value: English, German
+      value: Chinese (Native), English (Fluent), German (Intermediate)
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: Ph.D. in Data Science and Earth Observation
+      institution: Technical University of Munich, Germany
+      year: 2022 - 2026 (expected)
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+        - "Advisor: Prof. Xiao Xiang Zhu and Muhammad Shahzad"
+        - "Research focus: Multimodal Learning, Spatiotemporal Analysis, Foundation Models for Remote Sensing"
+        - "Thesis: Remote Sensing Foundation Models for Earth Observation"
+    - title: M.Sc. (Exchange) in Geomatics
+      institution: ETH Zurich, Switzerland
+      year: 2021 - 2022
       description:
-        - Description 1.
-        - Description 2.
+        - "Advisor: Prof. Konrad Schindler"
+        - "Focus: Computer Vision, Advanced Signal Processing, Machine Learning for Geospatial Data"
+    - title: M.Sc. in Geoinformation
+      institution: KTH Royal Institute of Technology, Sweden
+      year: 2020 - 2022
+      description:
+        - "Advisor: Prof. Yifang Ban"
+        - "Focus: Deep Learning in Data Science, Computer Vision for Geospatial Applications"
+    - title: B.Eng. in Remote Sensing Science and Technology
+      institution: Wuhan University, China
+      year: 2016 - 2020
+      description:
+        - "Advisor: Prof. Shugen Wang"
+        - "Focus: Digital Image Processing, Remote Sensing Algorithms, Geospatial Analysis"
 
-- title: Experience
+- title: Research Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Research Assistant
+      institution: MultiMiner Project (Horizon Europe)
+      year: 2023 - Present
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
-      description:
-        - Description 1.
-        - Description 2.
-
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
-      description:
-
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
-  type: time_table
-  contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+        - "Leader of WP 3.1: Development of the GMSM (Generic Mine Site Monitoring) algorithm"
+        - "Developing Earth Observation Foundation Models for mine site monitoring"
+        - "Applying multi-modal approaches for vegetation monitoring"
+        - "Achieving significant improvements in species richness and vegetation cover prediction"
 
 - title: Honors and Awards
   type: time_table
   contents:
-    - year: 1921
+    - year: 2024
       items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
+        - AAAI Student Scholarship
+    - year: 2021
       items:
-        - Max Planck Medal
-
-- title: Academic Interests
-  type: nested_list
-  contents:
-    - title: Topic 1.
+        - Erasmus Scholarship, European Commission
+    - year: 2020
       items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
+        - KTH Scholarship (35/1700), KTH Royal Institute of Technology
+    - year: 2016-2020
       items:
-        - Description 1.
-        - Description 2.
+        - Excellence Scholarship, Wuhan University
+        - Second Award, Asia and Pacific Mathematical Contest in Modeling
+        - Outstanding Paper, High Resolution Earth Observation Conference
+        - Third place prize, UAV Intelligent Perception Competition
+        - Honorable Mention, Mathematical Contest in Modeling, USA
+        - Undergraduate Innovation Grant, Wuhan University
 
 - title: Other Interests
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - <u>Hobbies:</u> Skiing ⛷️, Badminton 🏸, Hiking 🥾, Swimming 🏊, Fitness 💪
