@@ -50,13 +50,13 @@
       "summary": "Focus: Digital Image Processing, Remote Sensing Algorithms, Geospatial Analysis. Advisor: Prof. Shugen Wang"
     }
   ],
-  "work": [
+  "project": [
     {
       "name": "MultiMiner Project (Horizon Europe)",
       "position": "Research Assistant",
       "startDate": "2023-01-01",
       "endDate": "Present",
-      "summary": "Leader of WP 3.1: Development of the GMSM (Generic Mine Site Monitoring) algorithm. Developing Earth Observation Foundation Models for mine site monitoring. Applying multi-modal approaches for vegetation monitoring."
+      "summary": "Leader of WP 3.1: Development of the GMSM (Generic Mine Site Monitoring) algorithm with Earth Observation Foundation Models and multi-modal approaches."
     }
   ]
 }
