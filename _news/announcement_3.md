@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2016-01-15 07:59:00-0400
+date: 2025-04-04 12:00:00+0200
 inline: true
 related_posts: false
 ---
 
-A simple inline announcement with Markdown emoji! :sparkles: :smile:
+Our <a href='https://www.sciencedirect.com/science/article/pii/S1569843225001694'>National Tree Species Mapping</a> paper has been accepted by *International Journal of Applied Earth Observation and Geoinformation*.

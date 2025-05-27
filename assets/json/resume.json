@@ -4,9 +4,8 @@
     "label": "PhD Student",
     "image": "",
     "email": "yang.mu@tum.de",
-    "phone": "(+49) 176-8598-3124",
     "url": "https://muyang99.github.io/",
-    "summary": "PhD student in Data Science and Earth Observation at Technical University of Munich",
+    "summary": "PhD student in Data Science and Earth Observation at TUM",
     "location": {
       "city": "Munich",
       "countryCode": "DE",
@@ -57,44 +56,7 @@
       "position": "Research Assistant",
       "startDate": "2023-01-01",
       "endDate": "Present",
-      "summary": "Leader of WP 3.1: Development of the GMSM (Generic Mine Site Monitoring) algorithm. Developing Earth Observation Foundation Models for mine site monitoring. Applying multi-modal approaches for vegetation monitoring. Achieving significant improvements in species richness and vegetation cover prediction."
-    }
-  ],
-  "awards": [
-    {
-      "title": "AAAI Student Scholarship",
-      "date": "2024-12-15",
-      "awarder": "AAAI Conference, USA"
-    },
-    {
-      "title": "Erasmus Scholarship",
-      "date": "2021-09-01",
-      "awarder": "European Commission"
-    },
-    {
-      "title": "KTH Scholarship (35/1700)",
-      "date": "2020-05-01",
-      "awarder": "KTH Royal Institute of Technology"
-    }
-  ],
-  "languages": [
-    {
-      "language": "Chinese",
-      "fluency": "Native"
-    },
-    {
-      "language": "English",
-      "fluency": "Fluent"
-    },
-    {
-      "language": "German",
-      "fluency": "Intermediate"
-    }
-  ],
-  "interests": [
-    {
-      "name": "Sports",
-      "keywords": ["Skiing ⛷️", "Badminton 🏸", "Hiking 🥾", "Swimming 🏊", "Fitness 💪"]
+      "summary": "Leader of WP 3.1: Development of the GMSM (Generic Mine Site Monitoring) algorithm. Developing Earth Observation Foundation Models for mine site monitoring. Applying multi-modal approaches for vegetation monitoring."
     }
   ]
 }
