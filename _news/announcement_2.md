@@ -5,5 +5,5 @@ inline: true
 related_posts: false
 ---
 
-Received the **AAAI-25 Student Scholarship** to attend the AAAI Conference 2025.
+Received the AAAI-25 Student Scholarship as travel grant.
 
