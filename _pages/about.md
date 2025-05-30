@@ -26,7 +26,7 @@ latest_posts:
 
 I am a PhD student in <a href='https://www.asg.ed.tum.de/sipeo/home/'>Data Science and Earth Observation</a> at Technical University of Munich, advised by Prof. <a href='https://www.asg.ed.tum.de/sipeo/team/zhu/'>Xiao Xiang Zhu</a> and <a href='https://www.asg.ed.tum.de/sipeo/team/prof-dr-ing-muhammad-shahzad/'>Muhammad Shahzad</a>. I obtained M.Sc. in Geomatics from <a href='https://www.kth.se/en'>KTH Royal Institute of Technology</a> and exchanged in <a href='https://prs.igp.ethz.ch/'>ETH Zurich</a> in 2022. Prior to that, I earned a B.Eng. in Remote Sensing from <a href='https://en.whu.edu.cn/'>Wuhan University</a> in 2020.
 
-My research centers on **multimodal learning** and **spatial-temporal analysis** for Earth observation, advancing **geospatial reasoning** to deliver actionable insights, especially for **global forest and biodiversity monitoring**.
+My research focuses on the intersection of **spatial-temporal analysis**, **multimodal learning**, and **foundation models** for Earth observation, advancing **geospatial reasoning** to extract valuable insights, especially for **global forest and biodiversity monitoring**.
 
 ---
 
