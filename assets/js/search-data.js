@@ -407,7 +407,7 @@ ninja.data = [{
           section: "News",},{id: "news-our-national-tree-species-mapping-paper-has-been-accepted-by-international-journal-of-applied-earth-observation-and-geoinformation",
           title: 'Our National Tree Species Mapping paper has been accepted by International Journal of...',
           description: "",
-          section: "News",},{id: "news-globalgeotree-is-now-available-on-arxiv-check-out-our-latest-work-on-global-tree-species-classification",
+          section: "News",},{id: "news-globalgeotree-is-now-available-on-arxiv-check-out-our-latest-work-on-global-tree-species-multimodal-benchmark-and-geotreeclip-vision-language-model",
           title: 'GlobalGeoTree is now available on arXiv! Check out our latest work on global...',
           description: "",
           section: "News",},{id: "projects-project-1",
