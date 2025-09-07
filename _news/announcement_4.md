@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-<a href='https://arxiv.org/abs/2505.12513'>GlobalGeoTree</a> is now available on arXiv! Check out our latest work on global tree species classification! 🌍🌲 
+<a href='https://arxiv.org/abs/2505.12513'>GlobalGeoTree</a> is now available on arXiv! Check out our latest work on global tree species multimodal benchmark and GeoTreeCLIP vision-language model! 🌍🌲
