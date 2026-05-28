@@ -44,6 +44,11 @@
 - title: Research Experience
   type: time_table
   contents:
+    - title: Student Researcher
+      institution: Google DeepMind
+      year: Apr. 2026 - Present
+      description:
+        - "Working with Dr. Maxim Neumann"
     - title: Research Assistant
       institution: MultiMiner Project (Horizon Europe)
       year: 2023 - Present
