@@ -12,6 +12,18 @@
       "region": "Bavaria"
     }
   },
+  "work": [
+    {
+      "name": "Google DeepMind",
+      "position": "Student Researcher",
+      "url": "https://deepmind.google/",
+      "location": "Munich, Germany",
+      "startDate": "2026-04-13",
+      "endDate": "Present",
+      "summary": "Working with Dr. Maxim Neumann on geospatial AI and Earth observation.",
+      "highlights": []
+    }
+  ],
   "education": [
     {
       "institution": "Technical University of Munich",

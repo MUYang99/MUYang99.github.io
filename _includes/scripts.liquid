@@ -331,6 +331,10 @@
   <script src="{{ '/assets/js/shortcut-key.js' | relative_url | bust_file_cache }}"></script>
 {% endif %}
 
+{% if page.repo_cards %}
+  <script defer src="{{ '/assets/js/repo-cards.js' | relative_url | bust_file_cache }}" type="text/javascript"></script>
+{% endif %}
+
 {% if site.newsletter.enabled %}
   <script defer src="{{ '/assets/js/newsletter.js' | relative_url | bust_file_cache }}"></script>
 {% endif %}
