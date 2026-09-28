@@ -36,6 +36,8 @@
     const starsEl = card.querySelector(".repo-card-stars");
     const forksEl = card.querySelector(".repo-card-forks");
 
+    setLanguage(languageEl, languageEl.dataset.language);
+
     try {
       const response = await fetch(`https://api.github.com/repos/${fullName}`);
       if (!response.ok) {
@@ -47,6 +49,10 @@
       forksEl.innerHTML = `<i class="fa-solid fa-code-branch"></i> ${formatCount(data.forks_count)}`;
       setLanguage(languageEl, data.language);
     } catch (error) {
+      // Keep the stats rendered at build time (e.g. when rate-limited)
+      if (card.dataset.prefilled) {
+        return;
+      }
       descriptionEl.textContent = "Repository details are temporarily unavailable.";
       starsEl.innerHTML = '<i class="fa-regular fa-star"></i> —';
       forksEl.innerHTML = '<i class="fa-solid fa-code-branch"></i> —';
@@ -69,6 +75,9 @@
       reposEl.innerHTML = `<i class="fa-solid fa-book"></i> ${formatCount(data.public_repos)} repos`;
       followersEl.innerHTML = `<i class="fa-solid fa-users"></i> ${formatCount(data.followers)} followers`;
     } catch (error) {
+      if (card.dataset.prefilled) {
+        return;
+      }
       descriptionEl.textContent = `@${username} on GitHub`;
       reposEl.innerHTML = '<i class="fa-solid fa-book"></i> — repos';
       followersEl.innerHTML = '<i class="fa-solid fa-users"></i> — followers';

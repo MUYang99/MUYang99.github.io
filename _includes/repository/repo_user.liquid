@@ -1,17 +1,30 @@
+{% assign user_stats = site.data.github_stats.users[include.username] %}
+
 <div class="repo p-2">
   <a
     class="repo-card repo-card-user"
     href="https://github.com/{{ include.username }}"
     data-github-user="{{ include.username }}"
+    {% if user_stats %}
+      data-prefilled="true"
+    {% endif %}
   >
     <div class="repo-card-header">
       <i class="fa-brands fa-github repo-card-icon"></i>
       <span class="repo-card-name">{{ include.username }}</span>
     </div>
-    <p class="repo-card-description">Loading profile info...</p>
+    <p class="repo-card-description">
+      {%- if user_stats and user_stats.bio -%}
+        {{ user_stats.bio | escape }}
+      {%- elsif user_stats -%}
+        @{{ include.username }} on GitHub
+      {%- else -%}
+        Loading profile info...
+      {%- endif -%}
+    </p>
     <div class="repo-card-meta">
-      <span class="repo-card-repos"><i class="fa-solid fa-book"></i> — repos</span>
-      <span class="repo-card-followers"><i class="fa-solid fa-users"></i> — followers</span>
+      <span class="repo-card-repos"><i class="fa-solid fa-book"></i> {{ user_stats.repos | default: '—' }} repos</span>
+      <span class="repo-card-followers"><i class="fa-solid fa-users"></i> {{ user_stats.followers | default: '—' }} followers</span>
     </div>
   </a>
 </div>

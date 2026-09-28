@@ -1,4 +1,5 @@
 {% assign repo_url = include.repository | split: '/' %}
+{% assign repo_stats = site.data.github_stats.repos[include.repository] %}
 {% if site.data.repositories.github_users contains repo_url.first %}
   {% assign show_owner = false %}
 {% else %}
@@ -11,6 +12,9 @@
     href="https://github.com/{{ include.repository }}"
     data-repo="{{ include.repository }}"
     data-show-owner="{{ show_owner }}"
+    {% if repo_stats %}
+      data-prefilled="true"
+    {% endif %}
   >
     <div class="repo-card-header">
       <i class="fa-regular fa-bookmark repo-card-icon"></i>
@@ -18,11 +22,17 @@
         {% if show_owner %}{{ include.repository }}{% else %}{{ repo_url[1] }}{% endif %}
       </span>
     </div>
-    <p class="repo-card-description">Loading repository info...</p>
+    <p class="repo-card-description">
+      {%- if repo_stats -%}
+        {{ repo_stats.description | default: 'No description provided.' | escape }}
+      {%- else -%}
+        Loading repository info...
+      {%- endif -%}
+    </p>
     <div class="repo-card-meta">
-      <span class="repo-card-language"></span>
-      <span class="repo-card-stars"><i class="fa-regular fa-star"></i> —</span>
-      <span class="repo-card-forks"><i class="fa-solid fa-code-branch"></i> —</span>
+      <span class="repo-card-language" data-language="{{ repo_stats.language }}"></span>
+      <span class="repo-card-stars"><i class="fa-regular fa-star"></i> {{ repo_stats.stars | default: '—' }}</span>
+      <span class="repo-card-forks"><i class="fa-solid fa-code-branch"></i> {{ repo_stats.forks | default: '—' }}</span>
     </div>
   </a>
 </div>
